@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer Practice - Edspert</title>
+    <link rel="stylesheet" href="/main.css">
+    <script src="/script.js" defer></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container"></div>
+      <div class="container__form">
+        <div class="h1__container">
+          <h1>Stay updated!</h1>
+        </div>
+        <div class="paragraph">
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        </div>
+        <div class="list__container">
+          <div class="list__item">
+            <img src="/images/icon-list.svg" alt="" />
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="list__item">
+            <img src="/images/icon-list.svg" alt="" />
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="list__item">
+            <img src="/images/icon-list.svg" alt="" />
+            <p>And much more!</p>
+          </div>
+        </div>
+        <form class="form">
+          <div class="input">
+            <div class="paragraph-input">
+              <p>Email address</p>
+              <p class="paragraph__error_email hidden">Valid email required</p>
+            </div>
+            <input
+              class="input__item"
+              type="email"
+              placeholder="email@company.com"
+            />
+          </div>
+          <button class="btn__submit">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+    </div>
+    <div class="container-success hidden">
+      <div class="subcribe__container">
+        <div class="imagem_success">
+          <img src="/images/icon-success.svg" alt="" />
+        </div>
+        <div class="h1__subscribe">
+          <h1>Thanks for subscribing!</h1>
+        </div>
+
+        <div class="paragraph__subscribe">
+          <p>
+            A confirmation email has been sent to
+            <span id="email__span" class="email__span"></span> Please open it
+            and click the button inside to confirm your subscription.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
